@@ -9,10 +9,11 @@
     "express": "^4.17.1"
   },
   "scripts": {
-    "start": "nodemon src/index.js"
     "start": "nodemon src/index.js",
     "start:dev": "nodemon --inspect src/index.js"
   },
   "devDependencies": {
+    "nodemon": "^2.0.7",
+    "sucrase": "^3.17.1"
   }
 }
