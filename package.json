@@ -1,0 +1,11 @@
+{
+  "name": "personal-finances-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:raphaelcdsouza/personal-finances-api.git",
+  "author": "Raphael Cassio de Souza <rapha.cassio@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
