@@ -1,11 +1,10 @@
-const express = require('express');
+import express from 'express';
+import routes from './routes';
 
 const app = express();
 const port = 3000;
 
-app.get('/', (_, res) => {
-	res.send('Hello World');
-});
+app.use(routes);
 
 app.listen(port, () => {
 	console.log(`Server listen on port ${port}`);
