@@ -6,7 +6,9 @@
   "author": "Raphael Cassio de Souza <rapha.cassio@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "knex": "^0.95.4",
+    "pg": "^8.5.1"
   },
   "scripts": {
     "start": "nodemon src/index.js",
